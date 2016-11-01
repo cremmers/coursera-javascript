@@ -1,0 +1,39 @@
+/* Navbar Styles */
+
+#navbar_container {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-brand {
+    padding: 0px;
+    padding-left: 15px;
+}
+
+#title {
+    margin: 0px;
+}
+
+.navbar .navbar-collapse {
+	background-color: #FFFFFF;
+}
+
+#nav-list a {
+    text-align: center;
+}
+
+.navbar .navbar-nav li a:hover {
+	color: #FFFFFF;
+	background: #F5F5F5;
+}
+
+.navbar-nav li a {
+    font-size: 20px;
+}
+
+/*Page Styles*/
+
+#wrapper {
+    background-color: #F5F5F5;
+    height: 1000px;
+}
