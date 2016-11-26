@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <!--<script src="js/script.js"></script>-->
   </head>
   <body>
     <nav class="navbar navbar-default">
@@ -27,25 +27,48 @@
         <div class="collapse navbar-collapse" id="collapse">
           <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
-              <a href="#" class="visible-xs">Chicken</a>
+              <a href="#section-1" class="visible-xs">Chicken</a>
             </li>
             <li>
-              <a href="#" class="visible-xs">Beef</a>
+              <a href="#section-2" class="visible-xs">Beef</a>
             </li>
             <li>
-              <a href="#" class="visible-xs">Sushi</a>
+              <a href="#section-3" class="visible-xs">Fish</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h2 class="text-center">Our Menu</h2>
+    <h2 class="text-center" id="heading">Our Menu</h2>
     <div id="wrapper">
       <div class="container-fluid">
-        <div class="col-xs-12">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12" id="section-1">
+            <div class="text">
+              <h3 class="text-center">Chicken</h3>
+              <p>Two lightly fried parmesan-breaded chicken breasts are smothered with Olive Garden’s homemade marinara sauce and melted Italian cheeses. We serve our Chicken Parmigiana with a side of spaghetti for dinner. Try this classic pairing of Italian comfort foods that will leave you saying 'yum!'</p>
+              <a href="#heading">Back to Top</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12" id="section-2">
+            <div class="text">
+              <h3 class="text-center">Beef</h3>
+              <p>Tender slices of slow-braised beef, portobello mushrooms and asiago-filled tortelloni tossed in basil-marsala sauce. The fruit-forward notes of the Columbia Crest Grand Estates Cabernet strike a delicate balance with the richness of the beef and cheeses.</p>
+               <a href="#heading">Back to Top</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12" id="section-3">
+            <div class = "text">
+              <h3 class="text-center">Fish</h3>
+              <p>Delicate white fish baked in a lemon garlic butter sauce topped with sundried tomatoes and capers. Served with parmesan-crusted zucchini.</p>
+               <a href="#heading">Back to Top</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-xs-12"> 
           <h3 class="text-center">Chicken</h3>
           <p>Two lightly fried parmesan-breaded chicken breasts are smothered with Olive Garden’s homemade marinara sauce and melted Italian cheeses. We serve our Chicken Parmigiana with a side of spaghetti for dinner. Try this classic pairing of Italian comfort foods that will leave you saying 'yum!'</p>
-        </div>        
+        </div> -->      
       </div>  
     </div>
   </body>

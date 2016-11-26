@@ -33,7 +33,34 @@
 
 /*Page Styles*/
 
-#wrapper {
+/*#wrapper {
     background-color: #F5F5F5;
     height: 1000px;
+}*/
+
+#section-1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#section-2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#section-3 {
+    padding-top: 15px;
+}
+
+.text {
+    background-color: #F5F5F5;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+p {
+    height: 150px;
+    font-family: Helvetica;
+    color: black;
+    font-size: 100%;
 }
